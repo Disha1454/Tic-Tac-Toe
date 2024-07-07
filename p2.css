@@ -1,0 +1,33 @@
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 2px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 300px;
+  }
+  .cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .cell.X {
+    color: yellow; /* Change color for X here */
+  }
+  .cell.O {
+    color: red; /* Change color for O here */
+  }
+  .back
+  {
+    background-color: black;
+  }
+  .heading
+  {
+    color: aqua;
+    text-align: center;
+  }
